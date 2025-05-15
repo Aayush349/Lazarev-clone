@@ -168,20 +168,7 @@ function page3VideoAnimation() {
 
 }
 
-function page6Animations() {
-    gsap.from("#btm6-part2 h4", {
-        x: 0,
-        duration: 1,
-        scrollTrigger: {
-            trigger: "#btm6-part2",
-            scroller: "#main",
-            // markers:true,
-            start: "top 80%",
-            end: "top 10%",
-            scrub: true
-        }
-    })
-}
+
 
 locomotiveAnimation()
 
